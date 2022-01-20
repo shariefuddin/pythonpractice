@@ -1,0 +1,12 @@
+salary=float(input("enter employer salary"));
+print("salary of the employee is : ",salary );
+bill1=float(input("enter first bill amount"));
+print("bill1 amount is : ",bill1);
+bill2=float(input("enter second bill amount"));
+print("bill2 amount is : ",bill2);
+bill3=float(input("enter third bill amount"));
+print("bill3 amount is : ",bill3);
+spending=(bill1+bill2+bill3);
+print("total shoping bill is : ",spending);
+percentage=(spending/salary)*100 ;
+print("total percentage of spending amount is : ",percentage,"%");
